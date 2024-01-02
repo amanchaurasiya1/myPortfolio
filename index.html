@@ -5,7 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Its Aman Here</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsive.css">
+
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 
@@ -20,6 +25,11 @@
             <a href="#contactSection" style="--i:5">Contact</a>
             <a id="downloadLink" href="./AmanResume.pdf" download="Aman's Resume.pdf" style="--i:6">Download Resume</a>
         </nav>
+        <div class="burger" onclick="toggle(event)">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </header>
     <section class="home">
         <div class="home-content">
@@ -176,7 +186,7 @@
                     <div class="projectDiscription">
                         <h3 class="projectName">MyChat</h3>
                         <p>
-                        This is a real time chating website , just like whatsapp , and this is going to be updated day by day to make it even better than existing whatsapp , In this web application anyone can register with their unique mobile numbers and can search whether therir friend are registered or not and can chat accordingly . Data is safely stored on the cloud . In Nearfuture some additional features will be included...</p>
+                        This is a real time chating website , just like whatsapp , and this is going to be updated day by day, In this web application anyone can register with their unique mobile numbers and can search whether there friend are registered or not and can chat accordingly . Data is safely stored on the cloud . In Nearfuture some additional features will be included.</p>
                     </div>
                 </a>
                 <a href="https://local-market.onrender.com" class="project" id="project2" onmouseover="showDescription('project2')" onmouseleave="hideDescription('project2')">

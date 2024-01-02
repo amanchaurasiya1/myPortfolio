@@ -48,3 +48,11 @@ function hideDescription(project) {
     projectImage.style.display = 'block';
 }
 
+function toggle(event){
+    let navbar = document.getElementsByClassName('navbar')[0];
+    if(navbar.style.display == "none"){
+        navbar.style.display = "flex"
+    }else{
+        navbar.style.display = "none"
+    }
+}

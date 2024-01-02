@@ -1,0 +1,115 @@
+@media only screen and (max-width:950px){
+    .burger{
+        display: flex;
+    }
+    .navbar{
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar a{
+        margin:10px 0px;
+    }
+    #contactSection p{
+        font-size: 15px;
+    }
+    #contactSection a{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:850px){
+    .header{
+        padding:7px 7px;
+    }
+    .navbar a{
+        font-size: 15px;
+    }
+    .home-content h3{
+        font-size: 20px;
+    }
+    .home-content h1{
+        font-size: 30px;
+    }
+    .home-content p{
+        width: 75%;
+        margin:5px 0px;
+        font-size: 10px;
+    }
+    #myPicHome{
+        width:200px;
+        height:200px;
+    }
+    .btn-box{
+        padding:10px 14px;
+        font-size:12px;
+    }
+    .about-text h2{
+        font-size: 25px;
+    }
+    .about-text h4{
+        font-size: 20px;
+    }
+    .about-text p{
+        font-size: 12px;
+    }
+    #myPicAbout{
+        width:150px;
+        height:150px;
+    }
+    .category h4{
+        font-size: 13px;
+    }
+    .Technical-bars .bar .info span{
+        font-size: 10px;
+    }
+    .bar img{
+        width:15px;
+        height:15px;
+    }
+    .home-sci img{
+        width:20px;
+        height:20px;
+    }
+}
+@media only screen and (max-width:500px){
+    #downloadLink{
+        padding:15px 10px;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-img{
+        display: none;
+    }
+    .home-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom:70px;
+        text-align: center;
+    }
+
+    #about .about-text{
+        width:100vw;
+        padding:0px 10px;
+        text-align: center;
+    }
+    .Technical-bars .bar{
+        margin:10px 10px;
+        width:33%;
+    }
+    .category h4{
+        font-size: 10px;
+    }
+    #contactSection p{
+        font-size: 12px;
+    }
+    #contactSection a{
+        font-size: 10px;
+    }
+}
